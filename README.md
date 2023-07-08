@@ -1,13 +1,16 @@
 # Structure
 ├── src
-│   ├── components
-│   │   ├── Home.js
-│   │   ├── About.js
-│   │   ├── Experience.js
-│   │   ├── Resume.js
-│   │   ├── Contact.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-└── ...
-
+│   ├── components <br>
+│   │   ├── Home <br>
+│   │   │   ├── Home.js <br>
+│   │   │   ├── Home.css <br>
+│   │   └── ... <br>
+│   ├── pages <br>
+│   │   ├── About <br>
+│   │   │   ├── About.js <br>
+│   │   │   ├── About.css <br>
+│   │   └── ... <br>
+│   ├── App.js <br>
+│   ├── index.js <br>
+│   └── ... <br>
+└── ... <br>
