@@ -3,8 +3,8 @@
 ├── src <br>
 │   ├── components <br>
 │   │   ├── Home <br>
-│   │   │   ├── Home.js <br>
-│   │   │   ├── Home.css <br>
+│   │   │   ├── Screen.js <br>
+│   │   │   ├── Screen.css <br>
 │   │   └── ... <br>
 │   ├── pages <br>
 │   │   ├── About <br>
