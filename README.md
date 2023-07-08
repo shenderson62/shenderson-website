@@ -1,4 +1,5 @@
-# Structure
+[Viewable Figma link (work in progress)](https://www.figma.com/file/ifUzJRJdrsqyuVA6N)
+## Structure
 ├── src <br>
 │   ├── components <br>
 │   │   ├── Home <br>
