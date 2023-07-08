@@ -1,8 +1,8 @@
-import Home from './components/Home';
-import About from './components/About';
-import Experience from './components/Experience';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Experience from './pages/Experience/Experience';
+import Resume from './pages/Resume/Resume';
+import Contact from './pages/Contact/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -15,11 +15,11 @@ function App() {
         </header>
 
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/experience" element={<Experience/>} />
+          <Route path="/resume" element={<Resume/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </div>
     </Router>
