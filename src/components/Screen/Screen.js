@@ -1,10 +1,11 @@
 import React from 'react';
 import './Screen.css';
+import lighthouseBackground from '../../assets/images/lighthouse-background.png';
 
 function Screen() {
   return (
     <div className="screen-container">
-      {/* Add content within the screen component if needed */}
+        <img className="image-overlay"src={lighthouseBackground} alt="lighthouse background"/>
     </div>
   );
 }

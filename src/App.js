@@ -10,10 +10,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
-          {/* Your header content */}
-        </header>
-
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
