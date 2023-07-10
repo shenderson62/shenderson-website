@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
-
 .center-text {
     font-family: 'Monofett', cursive;
     font-size: 48px;
     text-align: center;
+    animation: bobbingAnimation 3s infinite;
+  }
+  
+  @keyframes bobbingAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }

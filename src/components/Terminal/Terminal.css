@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
+
+.terminal-container {
+  position: relative;
+  background-color: #282c34;
+  padding: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #00ff00;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.terminal-title {
+  font-weight: bold;
+  color: #00ff00;
+}
+
+.terminal-buttons {
+  display: flex;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
+  border-radius: 50%;
+}
+
+.minimize {
+  background-color: #f4c35a;
+}
+
+.close {
+  background-color: #fb5151;
+}
+
+.terminal-content {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #000000;
+}
+
+.terminal-path {
+  color: #00ff00;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.terminal-text {
+  text-align: center;
+}

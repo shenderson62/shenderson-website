@@ -1,19 +1,26 @@
 import React from 'react';
 import './Screen.css';
 
-// Reusable screen component
-// Contains navigation bar and background styling
-
 function Screen({ children }) {
   return (
     <div className="screen-container">
-      <div className="navbar">
-        <a href="/about">About</a>
-        <a href="/experience">Experience</a>
-        <a href="/resume">Resume</a>
-        <a href="/contact">Contact</a>
+      <div className="browser">
+        <div className="title-bar">
+        <div className="tabs">
+            <div className="tab active">About</div>
+            <div className="tab">Experience</div>
+            <div className="tab">Resume</div>
+            <div className="tab">Contact</div>
+          </div>
+          <div className="buttons">
+            <div className="minimize-button" />
+            <div className="close-button" />
+          </div>
+        </div>
+        <div className="content">
+          {children}
+        </div>
       </div>
-      {children}
     </div>
   );
 }

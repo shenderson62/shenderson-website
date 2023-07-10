@@ -1,13 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 .screen-container {
-  background-color: #CFB9A9;
-  height: 100vh;
+  background-color: #A8C2AD;
+  min-height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.browser {
+  background-color: #D6EEF2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  background-color: #C7C7C7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.close-button,
+.minimize-button {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+
+.close-button {
+  background-color: #FF5F57;
+}
+
+.minimize-button {
+  background-color: #FFBD2E;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F3F3F3;
+  height: 30px;
+  border-bottom: 1px solid #B1B1B1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-left: 10px;
+}
+
+.tab {
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #E5E5E5;
+}
+
+.tab.active {
+  background-color: #FFF;
+  font-weight: bold;
+}
+
+.content {
+  background-color: #FFF;
+  height: calc(100% - 60px);
+  padding: 20px;
+  overflow-y: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .navbar {
-  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -18,12 +103,8 @@
   color: white;
   text-decoration: none;
   padding: 10px;
-  font-family: 'Monofett', cursive;
-  font-size: 32px;
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
   -webkit-text-fill-color: #CFB9A9;
-}
-
-.navbar a:hover {
-  -webkit-text-fill-color: #FBFF37;
 }
 
