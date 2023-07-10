@@ -1,9 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Terminal.css';
 
-// promptText is the command typed into the terminal
-// children is the output of the command
-function Terminal({ children, promptText }) {
+function Terminal({ name, children, promptText }) {
+  const [typedText, setTypedText] = useState('');
+  const [showChildren, setShowChildren] = useState(false);
+
+  useEffect(() => {
+    let timeout;
+    let currentIndex = 0;
+
+    const typeText = () => {
+      if (currentIndex < promptText.length - 1) {
+        setTypedText((prevText) => prevText + promptText[currentIndex]);
+        currentIndex++;
+        if (currentIndex === (promptText.length - 1)) {
+          setShowChildren(true);
+        }
+        timeout = setTimeout(typeText, 100); // Delay between each character (adjust as needed)
+      }
+    };
+
+    typeText();
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [promptText]);
+
+  useEffect(() => {
+    setShowChildren(false);
+  }, []);
+
   return (
     <div className="terminal-container">
       <div className="terminal-header">
@@ -14,8 +41,8 @@ function Terminal({ children, promptText }) {
         </div>
       </div>
       <div className="terminal-content">
-        <div className="terminal-path">C:/Users/steph&gt; {promptText}</div>
-        <div className="terminal-text">{children}</div>
+        <div className="terminal-path">C:/Users/{name}&gt; {typedText}</div>
+        <div className='terminal-text'>{showChildren ? children : null}</div>
       </div>
     </div>
   );

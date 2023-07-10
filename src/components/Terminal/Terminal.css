@@ -53,5 +53,10 @@
 }
 
 .terminal-path {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
+
+.terminal-text {
+  display: block;
+}
+
