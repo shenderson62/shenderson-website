@@ -49,14 +49,9 @@
   padding: 10px;
   border-radius: 4px;
   background-color: #000000;
-}
-
-.terminal-path {
-  color: #00ff00;
-  margin-bottom: 5px;
   text-align: left;
 }
 
-.terminal-text {
-  text-align: center;
+.terminal-path {
+    margin-bottom: 16px;
 }

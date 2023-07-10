@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Screen.css';
 
+// Tabs open on the screen
+// /id represents the corresponding route
 const tabs = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
@@ -13,7 +15,7 @@ function Screen({ children, activeTab: initialActiveTab }) {
   const [activeTab, setActiveTab] = useState(initialActiveTab);
   const location = useLocation();
 
-  React.useEffect(() => {
+  useEffect(() => {
     // Update the active tab based on the current route
     const currentTab = tabs.find((tab) =>
       location.pathname.toLowerCase().startsWith(`/${tab.id}`)
@@ -23,6 +25,7 @@ function Screen({ children, activeTab: initialActiveTab }) {
     }
   }, [location.pathname]);
 
+  // applies 'active' CSS styling
   const handleTabClick = (tabId) => {
     setActiveTab(tabId);
   };
@@ -44,8 +47,8 @@ function Screen({ children, activeTab: initialActiveTab }) {
             ))}
           </div>
           <div className="buttons">
-            <div className="minimize-button" />
-            <div className="close-button" />
+            <button className="minimize-button" />
+            <button className="close-button" />
           </div>
         </div>
         <div className="content">{children}</div>

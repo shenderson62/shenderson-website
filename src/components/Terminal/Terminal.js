@@ -1,7 +1,9 @@
 import React from 'react';
 import './Terminal.css';
 
-function Terminal({ children }) {
+// promptText is the command typed into the terminal
+// children is the output of the command
+function Terminal({ children, promptText }) {
   return (
     <div className="terminal-container">
       <div className="terminal-header">
@@ -12,7 +14,7 @@ function Terminal({ children }) {
         </div>
       </div>
       <div className="terminal-content">
-        <div className="terminal-path">C:/Users/steph&gt;</div>
+        <div className="terminal-path">C:/Users/steph&gt; {promptText}</div>
         <div className="terminal-text">{children}</div>
       </div>
     </div>

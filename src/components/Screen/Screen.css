@@ -31,6 +31,7 @@
   padding: 0 10px;
 }
 
+
 .buttons {
   display: flex;
   align-items: center;
@@ -42,15 +43,14 @@
   height: 12px;
   margin: 0 4px;
   border-radius: 50%;
-  border: 2px solid #FFF;
 }
 
 .close-button {
-  background-color: #FF5F57;
+  background-color: #fb5151;
 }
 
 .minimize-button {
-  background-color: #FFBD2E;
+  background-color: #f4c35a;
 }
 
 .tabs {
