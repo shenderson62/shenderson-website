@@ -42,7 +42,7 @@ function Terminal({ name, children, promptText }) {
       </div>
       <div className="terminal-content">
         <div className="terminal-path">C:/Users/{name}&gt; {typedText}</div>
-        <div className='terminal-text'>{showChildren ? children : null}</div>
+        <div className='terminal-text' >{showChildren ? children : null}</div>
       </div>
     </div>
   );

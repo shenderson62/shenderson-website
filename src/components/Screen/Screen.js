@@ -31,7 +31,6 @@ function Screen({ children, activeTab: initialActiveTab }) {
   };
 
   return (
-    <div className="screen-container">
       <div className="browser">
         <div className="title-bar">
           <div className="tabs">
@@ -53,7 +52,6 @@ function Screen({ children, activeTab: initialActiveTab }) {
         </div>
         <div className="content">{children}</div>
       </div>
-    </div>
   );
 }
 
