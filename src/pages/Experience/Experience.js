@@ -1,11 +1,11 @@
 import React from 'react';
+import Screen from '../../components/Screen/Screen';
 
 function Experience() {
   return (
-    <div>
+    <Screen>
       <h1>Experience</h1>
-      {/* Add your Experience page content here */}
-    </div>
+    </Screen>
   );
 }
 

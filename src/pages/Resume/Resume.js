@@ -1,11 +1,11 @@
 import React from 'react';
+import Screen from '../../components/Screen/Screen';
 
 function Resume() {
   return (
-    <div>
+    <Screen>
       <h1>Resume</h1>
-      {/* Add your Resume page content here */}
-    </div>
+    </Screen>
   );
 }
 

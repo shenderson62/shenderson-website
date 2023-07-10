@@ -1,14 +1,29 @@
-.screen-container {
-    background-color: #322EFF;
-    height: 100vh;
-    width: 100vw;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 
-  .image-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 90%;
-    width: 100%;
-  }
-  
+.screen-container {
+  background-color: #CFB9A9;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Monofett', cursive;
+  font-size: 32px;
+  -webkit-text-fill-color: #CFB9A9;
+}
+
+.navbar a:hover {
+  -webkit-text-fill-color: #FBFF37;
+}
+

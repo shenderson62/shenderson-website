@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+.center-text {
+    font-family: 'Monofett', cursive;
+    font-size: 48px;
+    text-align: center;
+  }
