@@ -56,11 +56,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: #F3F3F3;
   height: 30px;
-  border-bottom: 1px solid #B1B1B1;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   padding-left: 10px;
 }
 
@@ -92,19 +88,4 @@
   border-bottom-right-radius: 10px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 8%;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  font-family: 'Fira Code', monospace;
-  font-size: 24px;
-  -webkit-text-fill-color: #CFB9A9;
-}
 

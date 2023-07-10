@@ -6,7 +6,7 @@ function Screen({ children }) {
     <div className="screen-container">
       <div className="browser">
         <div className="title-bar">
-        <div className="tabs">
+          <div className="tabs">
             <div className="tab active">About</div>
             <div className="tab">Experience</div>
             <div className="tab">Resume</div>
