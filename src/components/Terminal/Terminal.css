@@ -6,7 +6,7 @@
   font-family: 'Inconsolata', monospace;
   font-size: 14px;
   line-height: 1.4;
-  color: #00ff00;
+  color: #8af474;
   width: 400px;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -25,7 +25,7 @@
 
 .terminal-title {
   font-weight: bold;
-  color: #00ff00;
+  color: #8af474;
 }
 
 .terminal-buttons {

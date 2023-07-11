@@ -1,5 +1,6 @@
 .screen-container {
-    background-color: #A8C2AD;
+    background-image: url('../../assets/images/maine-green-background.png');
+    background-size:cover;
     min-height: 100vh;
     width: 100vw;
     display: flex;
