@@ -18,6 +18,7 @@
   justify-content: space-between;
   height: 30px;
   background-color: #8d8d8d;
+  border:  2px solid #5f5f5f;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 0 10px;
@@ -50,20 +51,23 @@
   align-items: center;
   justify-content: flex-start;
   height: 30px;
-  padding-left: 10px;
+  padding-left: 2px;
 }
 
 .tab {
-  padding: 0 10px;
-  line-height: 30px;
-  font-size: 14px;
-  cursor: pointer;
-  font-family: 'Fira Code', monospace;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  text-decoration: none; 
-  color: inherit;
-}
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+    color: inherit;
+    border-right: 2px solid #5f5f5f; /* Added border-right */
+    margin-right: 5px; /* Added margin-right */
+  }
+  
 
 .tab:hover {
   background-color: #E5E5E5;
@@ -81,4 +85,6 @@
   overflow-y: auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  /* border:  2px solid #5f5f5f; */
+  border-top: none;
 }
