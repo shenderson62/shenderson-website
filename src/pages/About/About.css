@@ -1,39 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
+
 .screen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .top-section {
-    width: 100%;
-    height: 200px;
-    background-color: #f5e5cc;
-    border-bottom: 2px solid #978972;
-    border-right: 2px solid #978972;
-  }
-  
-  .bottom-sections {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .bottom-section {
-    width: calc(50% - 5px);
-    height: 300px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .bottom-section.left {
-    background-color: #d9d9c2;
-    border-bottom: 2px solid #8d8d78;
-    border-right: 2px solid #8d8d78;
-  }
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: #f5e5cc;
+  border-bottom: 2px solid #978972;
+  border-right: 2px solid #978972;
+  font-family: 'Bungee Shade', cursive;
+  -webkit-text-fill-color: #978972;
+  font-size: 48px;
+}
 
-  .bottom-section.right {
-    background-color: #cfb9a9;
-    border-bottom: 2px solid #837061;
-    border-right: 2px solid #837061;
-  }
-  
-  
+.bottom-section {
+  width: 100%;
+  background-color: #d9d9c2;
+  border-bottom: 2px solid #8d8d78;
+  border-right: 2px solid #8d8d78;
+  text-align: left;
+  font-family: 'Fira Code', monospace;
+}
+
+.bottom-text {
+  margin: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #333;
+}
