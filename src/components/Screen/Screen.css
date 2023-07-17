@@ -9,7 +9,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  position: relative
+  position: relative;
 }
 
 .title-bar {
@@ -23,7 +23,6 @@
   border-top-right-radius: 10px;
   padding: 0 10px;
 }
-
 
 .buttons {
   display: flex;
@@ -55,19 +54,18 @@
 }
 
 .tab {
-    padding: 0 10px;
-    line-height: 30px;
-    font-size: 14px;
-    cursor: pointer;
-    font-family: 'Fira Code', monospace;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-decoration: none; 
-    color: inherit;
-    border-right: 2px solid #5f5f5f; /* Added border-right */
-    margin-right: 5px; /* Added margin-right */
-  }
-  
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-decoration: none; 
+  color: inherit;
+  border-right: 2px solid #5f5f5f;
+  margin-right: 5px;
+}
 
 .tab:hover {
   background-color: #E5E5E5;
@@ -85,6 +83,20 @@
   overflow-y: auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* border:  2px solid #5f5f5f; */
   border-top: none;
+}
+
+/* Custom scrollbar styles */
+.content::-webkit-scrollbar {
+  width: 8px;
+  background-color: #d9d9c2;; /* Match the background color of the screen */
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6); /* Lighten up when hovered */
 }
