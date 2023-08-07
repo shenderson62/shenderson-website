@@ -8,6 +8,9 @@ function Resume() {
   return (
     <Desktop className="desktop">
       <Screen className="screen">
+        <div className="top-section">
+          <p>My Resume</p>
+        </div>
         <iframe
           src={resume}
           title="Embedded PDF"
