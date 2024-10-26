@@ -1,3 +1,7 @@
+## Components
+### Terminal
+![terminal-gif](https://github.com/shenderson62/shenderson-website/assets/91431295/739951ee-53a3-4ab9-9b2d-fb62c2619ad0)
+
 ## Structure
 
 ├── src <br>
@@ -15,7 +19,3 @@
 │   ├── index.js <br>
 │   └── ... <br>
 └── ... <br>
-
-## Components
-### Terminal
-![terminal-gif](https://github.com/shenderson62/shenderson-website/assets/91431295/739951ee-53a3-4ab9-9b2d-fb62c2619ad0)
