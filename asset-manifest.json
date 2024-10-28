@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/shenderson-website/static/css/main.a05a322a.css",
+    "main.js": "/shenderson-website/static/js/main.8f178452.js",
+    "static/js/787.28cb0dcd.chunk.js": "/shenderson-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/maine-green-background.png": "/shenderson-website/static/media/maine-green-background.19a6aff06dcfd8ce61d2.png",
+    "static/media/stephanie-henderson-2023-resume.pdf": "/shenderson-website/static/media/stephanie-henderson-2023-resume.9ff4abbad6d803adb3d9.pdf",
+    "static/media/symbotic-logo.png": "/shenderson-website/static/media/symbotic-logo.a9e01110714a58f522de.png",
+    "static/media/microsoft.png": "/shenderson-website/static/media/microsoft.c8535d0475d866894dfd.png",
+    "index.html": "/shenderson-website/index.html",
+    "main.a05a322a.css.map": "/shenderson-website/static/css/main.a05a322a.css.map",
+    "main.8f178452.js.map": "/shenderson-website/static/js/main.8f178452.js.map",
+    "787.28cb0dcd.chunk.js.map": "/shenderson-website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a05a322a.css",
+    "static/js/main.8f178452.js"
+  ]
+}
