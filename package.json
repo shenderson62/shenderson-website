@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://shenderson62.github.io/shenderon-website",
+  "homepage": "https://shenderson62.github.io/shenderson-website/",
   "proxy": "http://localhost:3000",
   "private": true,
   "dependencies": {
