@@ -5,6 +5,7 @@ import './About.css';
 
 import microsoftLogo from '../../assets/images/microsoft.png';
 import slalomBuild from '../../assets/images/slalom-build-logo.png';
+import symboticLogo from '../../assets/images/symbotic-logo.png';
 
 function About() {
   return (
@@ -15,10 +16,15 @@ function About() {
         </div>
         <div className="bottom-section left">
           <p className="bottom-text">
-            I'm a graduate student at Georgia Tech, pursuing an MS in computer science with a specialization in machine learning.
-            With a deep passion for AI advancements and software development, I strive to stay at the forefront of these rapidly evolving fields.
+            I'm a recent Georgia Tech graduate, having earned an MS in Computer Science with a specialization in Machine Learning, 
+            and a BS in Computer Science, concentrating in Intelligence and Information Internetworks. Currently, I work as a 
+            Software Engineer at Symbotic, a company specializing in warehouse automation, on the Storage and Retrieval Strategy Team.
             <br /> <br />
-            My professional experience includes internships at companies such as Microsoft and Slalom Build, where I honed my skills
+            <div className="image-container">
+              <img src={symboticLogo} alt='symbotic' className='symbotic' />
+            </div>
+            <br /> <br />
+            My professional experience also includes internships at companies such as Microsoft and Slalom Build, where I honed my skills
             as a software engineer. These opportunities have not only shaped my expertise but have also instilled in me a drive to make
             a tangible impact in the industry.
             <br /> <br />
@@ -27,9 +33,9 @@ function About() {
               <img src={slalomBuild} alt="slalom" className='slalom' />
             </div>
             <br /> <br />
-            In addition to internship experience, I have had the privilege of serving as a teaching assistant at Georgia Tech for the
-            past two years. This experience has allowed me to collaborate closely with students and professors on challenging topics
-            in computer science, fostering a passion for knowledge sharing and academic growth. Together, we navigate through 
+            In addition to internship experience, I had the privilege of serving as a teaching assistant at Georgia Tech for three years.
+            This experience has allowed me to collaborate closely with students and professors on challenging topics
+            in computer science, fostering a passion for knowledge sharing and academic growth. Together, we navigated through 
             intricate concepts, further fueling my enthusiasm for the field.
             <br /> <br />
             During my free time, I enjoy exploring new places and enjoying the outdoors.

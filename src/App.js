@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/shenderon-website" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/experience" element={<Experience/>} />
           <Route path="/resume" element={<Resume/>} />
